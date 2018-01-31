@@ -11,38 +11,38 @@
 <body>
   <p>Zadanie HTML5 Formularz</p>
 
-    <label for="imie">Imię</label>
-    <form action="https://formspree.io/66szukaj@gmail.com"
+  <form action="https://formspree.io/66szukaj@gmail.com"
       method="POST">
+    <input type="text" name="imie">
+    <input type="e-mail" name="e-mail">
+    <input type="telefon" name="telefon">
+    <input type="wybor-miasta" name="wybor-miasta"
+    <input type="radio" name="gender">
+    <input type="checkbox" name="zgoda">
+    <input type="submit" value="Send">
+</form>
+
+    <label for="imie">Imię</label>
     <input type="text" id="imie" name="imie">
 
     <label for="nazwisko">Nazwisko</label>
-    <form action="https://formspree.io/66szukaj@gmail.com"
-      method="POST">
     <input type="text" id="nazwisko" name="nazwisko">
 
     <label for="e-mail">E-Mail</label>
-    <form action="https://formspree.io/66szukaj@gmail.com"
-      method="POST">
     <input type="text" id="e-mail" name="e-mail">
 
     <label for="telefon">Telefon</label>
-    <form action="https://formspree.io/66szukaj@gmail.com"
-      method="POST">
     <input type="text" id="telefon" name="telefon">
 
     <label for="wybor-miasta">Wybór Miasta</label>
-    <form action="https://formspree.io/66szukaj@gmail.com"
-      method="POST">
-    <select name="Wybór Miasta" id="wybor-miasta">
+    <select name="wybor-miasta" id="wybor-miasta">
       <option value="krakow">Kraków</option>
         <option value="warszawa"> Warszawa</option>
           <option value="gdansk">Gdańsk</option>
     </select>
 
     <label for="plec">Płeć</label>
-    <form action="https://formspree.io/66szukaj@gmail.com"
-        method="POST">>
+    <form>
       <input type="radio" name="gender" value="mezczyzna" checked> Mężczyzna
       <input type="radio" name="gender" value="kobieta"> Kobieta
       <input type="radio" name="gender" value="inne"> Inne
@@ -55,8 +55,6 @@
 <br>
 
   <label for="wiadomosc">Napisz do nas</label>
-    <form action="https://formspree.io/66szukaj@gmail.com"
-      method="POST">
     <input type="text" id="wiadomosc" name="wiadomosc">
     <input type="submit" value="Wyślij">
   </form>

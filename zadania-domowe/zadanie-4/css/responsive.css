@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Verdana';
+  background-image: url('../img/man-1.jpg');
+
+}
+
+.header {
+  text-transform: uppercase;
+}
+
+/* @media (max-width:768px) {
+  figure {
+  width: 100%;
+    }
+  } */
+
+
+/* @media (min-width:769px) and (max-width:992px) {
+  figure {
+  width: 49%;
+    }
+} */
+
+@media (max-width:992px) {
+
+  body {
+    background-image: url('../img/man1.jpg');
+    width: 50%;
+  }
+
+  .header {
+    width: 50%;
+    text-align: justify;
+    position: relative;
+  }

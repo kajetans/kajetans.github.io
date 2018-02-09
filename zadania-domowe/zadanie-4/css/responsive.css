@@ -1,39 +1,25 @@
-* {
-	box-sizing: border-box;
-}
 
-body {
-	font-family: 'Verdana';
-  background-image: url('../img/man-1.jpg');
-
-}
-
-.header {
-  text-transform: uppercase;
-}
-
-/* @media (max-width:768px) {
-  figure {
-  width: 100%;
+/* Rozdzielczość od 993 do 1170 */
+@media all and (min-width:993px) and (max-width:1170) {
+	body {
+	background-image: url('../img/man-2.jpg'); /* nie działa */
+	background-repeat: no-repeat;
+	width: 70%;
+	text-align: top, right; /* nie działa */
     }
-  } */
+	}
 
-
-/* @media (min-width:769px) and (max-width:992px) {
-  figure {
+/* Rozdzielczość poniżej 992px */
+ @media all and (max-width:992px) {
+	 body {
+	background-image: url('../img/man-1.jpg');
+	background-repeat: no-repeat;
   width: 49%;
     }
-} */
+	}
 
-@media (max-width:992px) {
+		#header {
+		  display: inline-block;
+		  text-align: : bottom, center; /* nie działa */
 
-  body {
-    background-image: url('../img/man1.jpg');
-    width: 50%;
-  }
-
-  .header {
-    width: 50%;
-    text-align: justify;
-    position: relative;
-  }
+}

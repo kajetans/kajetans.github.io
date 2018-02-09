@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+  overflow: hidden;
+  background-size: cover;
+}
+
+/* Tu precyzuję warunki dla rozdzielczości powyżej 1170px */
+
+body {
+	font-family: 'Verdana';
+  background-image: url('../img/man-1.jpg');
+  background-repeat: no-repeat;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+header {
+  display: inline-block;
+  height: 50%;
+
+}
